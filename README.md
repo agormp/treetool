@@ -1,6 +1,6 @@
-# TreeTool: python script for
+# TreeTool: python script for manipulating and analyzing phylogenetic trees
 
-Script used for data analysis in paper "XXX".
+Script used for data analysis in the paper "XXX".
 
 Converts between different tree file formats. Performs various manipulations and analyses on trees
 
@@ -8,7 +8,11 @@ Converts between different tree file formats. Performs various manipulations and
 
 Requires installation of [treelib.py](https://github.com/agormp/treelib) module
 
-Place `treetool.py` in directory that is pointed to by the PATH environment variable, and make script executable. For instance (on MacOS):
+* Place `treetool.py` in directory that is pointed to by the PATH environment variable
+* Make script executable
+* Use on command line
+
+For instance (on MacOS):
 ```
 mv treetool.py /usr/local/bin
 chmod 755 /usr/local/bin/treetool.py

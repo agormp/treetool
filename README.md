@@ -4,6 +4,10 @@ Script used for data analysis in the paper "XXX".
 
 Converts between different tree file formats. Performs various manipulations and analyses on trees
 
+## Availability
+
+The treetool.py script is available on GitHub: https://github.com/agormp/treetool
+
 ## Installation
 
 Requires installation of [treelib.py](https://github.com/agormp/treelib) module

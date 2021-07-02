@@ -1,8 +1,8 @@
 # TreeTool: python script for manipulating and analyzing phylogenetic trees
 
-Script used for data analysis in the paper "XXX".
+Command line tool used for data analysis in the paper "Manual resolution of virome dark matter uncovers hundreds of viral families in the infant gut".
 
-Converts between different tree file formats. Performs various manipulations and analyses on trees
+Converts between different phylogenetic tree file formats. Performs various manipulations and analyses on trees.
 
 ## Availability
 

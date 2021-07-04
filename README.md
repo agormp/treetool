@@ -10,7 +10,7 @@ The treetool.py script is available on GitHub: https://github.com/agormp/treetoo
 
 ## Installation
 
-Requires installation of [treelib.py](https://github.com/agormp/treelib) module
+Requires installation of [phylotreelib.py](https://github.com/agormp/phylotreelib) module
 
 * Place `treetool.py` in directory that is pointed to by the PATH environment variable
 * Make script executable

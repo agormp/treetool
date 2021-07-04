@@ -2,7 +2,7 @@
 # By Anders Gorm Pedersen, agpe@dtu.dk, Technical University of Denmark
 # Converts between different tree file formats. Performs various manipulations and analyses on trees
 
-import sys, os.path, math, shutil, treelib
+import sys, os.path, math, shutil, phylotreelib
 from optparse import OptionParser
 
 ################################################################################################
@@ -126,9 +126,9 @@ def read_treefile(options, filename):
     """Takes filename as input, returns Tree object"""
 
     if options.informat.lower() == "nexus":
-        treefile = treelib.Nexustreefile(filename)
+        treefile = phylotreelib.Nexustreefile(filename)
     else:
-        treefile = treelib.Newicktreefile(filename)
+        treefile = phylotreelib.Newicktreefile(filename)
 
     tree = next(treefile)
     return tree
@@ -287,7 +287,7 @@ def main():
         if options.printtree:
             print_tree(options, tree)
 
-    except treelib.TreeError as exc:
+    except phylotreelib.TreeError as exc:
         if options.debug:
             import traceback
             traceback.print_exc(file=sys.stderr)
